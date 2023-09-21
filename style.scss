@@ -22,7 +22,6 @@ body {
         display: flex;
 
         .content-cont {
-            order: 2;
             width: 570px;
             height: 100%;
             padding: 72px 95px 0 72px;
@@ -74,9 +73,8 @@ body {
         }
 
         .img-cont {
-            order: 1;
-            
             background-color: #AB5CDB;
+            
             .img {
                 opacity: .5;
                 
@@ -96,6 +94,7 @@ body {
             width: 327px;
 
             .content-cont {
+                order: 2;
                 height: unset;
                 width: 100%;
                 padding: 40px 32px 32px 32px;
@@ -122,6 +121,7 @@ body {
             }
     
             .img-cont {
+                order: 1;
                 height: 240px;
                 overflow: hidden;
                 
